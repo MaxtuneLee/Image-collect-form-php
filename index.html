@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js"></script>
+        <title>核酸情况收集</title>
+</head>
+
+<body>
+        <div class="container">
+                <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-9 col-sm-9">
+                                <div class="titles">
+                                        <h1 class="formTitle">核酸情况收集</h1>
+                                        <h6 class="formSubtitle">请填写姓名学号和上传核酸截图</h6>
+                                </div>
+                                <form action="form.php" method="post" enctype="multipart/form-data">
+                                        <div class="form-group mb-3">
+                                                <label for="name" class="form-label">姓名</label>
+                                                <input type="text" class="form-control" id="name" name="name"
+                                                        placeholder="请输入姓名" required="true">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                                <label for="studentId" class="form-label">学号</label>
+                                                <input type="text" class="form-control" id="studentId" name="studentId"
+                                                        placeholder="请输入学号" required="true">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                                <label for="file" class="form-label">核酸截图</label>
+                                                <input type="file" class="form-control" id="file" name="file" required="true">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">提交</button>
+                                </form>
+                        </div>
+                </div>
+
+        </div>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

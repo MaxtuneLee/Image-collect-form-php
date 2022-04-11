@@ -1,0 +1,16 @@
+.formTitle{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+}
+.formSubtitle{
+    font-size: 1.3em;
+    color: rgb(139, 139, 139);
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.titles{
+    margin-bottom: 50px;
+}
